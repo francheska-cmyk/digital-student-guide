@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
@@ -21,10 +22,10 @@
         </div>
         <nav aria-label="navigation principale" class="nav" id="nav-principal">
             <ul>
-                <li><a href="#accueilHTML">Accueil</a></li>
-                <li><a href="#pourquoiHtml">Pourquoi</a></li>
-                <li><a href="#baliseHtml">Balises</a></li>
-                <li><a href="#bonnesPratiques">Tips</a></li>
+                <li><a href="#accueil-html">Accueil</a></li>
+                <li><a href="#pourquoi-html">Pourquoi</a></li>
+                <li><a href="#balise-html">Balises</a></li>
+                <li><a href="#bonnes-pratiques">Tips</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <button aria-label="Ouvrir le menu" aria-expanded="false" id="menu-burger">
@@ -38,7 +39,7 @@
         </nav>
     </header>
     <main class="container">
-        <section class="hero" id="accueilHTML">
+        <section class="hero" id="accueil-html">
             <h1>Le guide HTML/CSS pour débutants</h1>
             <p>Ce guide sera ton meilleur allié en tant que débutant, pour t'accompagner dans ton apprentissage de
                 HTML/CSS</p>
@@ -47,17 +48,17 @@
                     page, et CSS, qui en définit l'apparence. Tu trouveras ici les balises essentielles à connaitre, des
                     exemples concrets d'utilisation, et des bonnes pratiques pour écrire un code propre et lisible dès
                     le début. Pas besoin de prérequis, commence de zéro !</p>
-                <button id="btn-hero"><a href="#pourquoiHtml">Commencez le guide</a></button>
+                <button id="btn-hero"><a href="#pourquoi-html">Commencez le guide</a></button>
             </div>
             <hr />
         </section>
         <section class="card">
             <h2>Découvrez HTML/CSS</h2>
-            <div class="card-contenu" id="pourquoiHtml">
+            <div class="card-contenu" id="pourquoi-html">
                 <h3>1. Pourquoi apprendre HTML/CSS ?</h3>
-                <article class="article">
+                <article>
                     <h4>HTML : la structure du site</h4>
-                    <p>Le HTML et le CSS sont des langages web de base ; on commence donc généralement par leur
+                    <p>Le HTML et le CSS sont des langages web de base ; on commence <em>généralement</em> par leur
                         apprentissage car ils sont assez simples à comprendre et car ils sont incontournables.</p>
                     <p>Le HTML (HyperText Markup Language) est le langage de balisage qui donne la structure à une page
                         web. Il indique au navigateur ce qu'est chaque élément : un titre, un paragraphe, une image, un
@@ -73,9 +74,10 @@
                             valider via le W3C validator.</li>
                     </ul>
                     <p>Exemple de code HTML :</p>
+                    <pre><code>&lt;h1&gt;Mon titre&lt;/h1&gt;&lt;p&gt;Mon paragraphe&lt;/p&gt;</code></pre>
                     <img src="images/exempleHTML.png" alt="capture d'écran d'un exemple de code HTML">
                 </article>
-                <article class="article">
+                <article>
                     <h4>CSS : la mise en forme</h4>
                     <p>CSS (Cascading Style Sheets) contrôle l'apparence visuelle des éléments HTML : couleurs, polices,
                         marges, disposition. Sans le CSS, une page s'affiche en texte brut sans aucune mise en forme. Il
@@ -119,7 +121,7 @@
                     <p>Ouvrir le fichier HTML dans un navigateur (Chrome, etc.) pour visualiser la page. On peut
                         utiliser l'outil "DevTools" des navigateurs pour inspecter la page.</p>
                 </article>
-                <article class="article">
+                <article>
                     <h4>Pourquoi les apprendre ensemble ?</h4>
                     <p>HTML et CSS fonctionnent en binôme : l'un sans l'autre ne suffit pas. HTML apporte le fond, CSS
                         apporte la forme. Comprendre les deux te donne le contrôle total sur ce qu'une page affiche et
@@ -134,7 +136,7 @@
                     </ul>
                 </article>
             </div>
-            <div class="card-contenu" id="baliseHtml">
+            <div class="card-contenu" id="balise-html">
                 <h3>2. Balises de base</h3>
                 <p>Pour écrire en langage HTML, les balises sont indispensables. Une balise est utilisée pour créer
                     un élement. Le nom d'un élément HTML est le nom qui apparaît au début de la balise ouvrante
@@ -194,7 +196,7 @@
                     </tbody>
                 </table>
             </div>
-            <div class="card-contenu" id="bonnesPratiques">
+            <div class="card-contenu" id="bonnes-pratiques">
                 <h3>3. Tips & bonnes pratiques</h3>
                 <p>Quelques conseils pratiques pour un code HTML / CSS bien structuré, lisible et optimisé</p>
                 <div class="contenu-tips">
@@ -255,7 +257,7 @@
     <footer>
         <nav aria-label="navigation secondaire" class="nav" id="nav-secondaire">
             <ul>
-                <li><a href="#coordonnes">Adresse : 145 rue du Thor, 34000 Toulouse </a></li>
+                <li>Adresse : 145 rue du Thor, 34000 Toulouse</li>
                 <li><a href="#mentions">Mentions légales</a></li>
                 <li>Liens utiles
                     <ul>
@@ -268,7 +270,7 @@
                     <ul class="reseau">
                         <li><a href="#insta"><img src="images/instagram_.png" alt="logo instagram"></a></li>
                         <li><a href="#twitter"><img src="images/x_.png" alt="logo X"></a></li>
-                        <li><a href="#youtuve"><img src="images/youtube-icon_.png" alt="logo youtube"></a></li>
+                        <li><a href="#youtube"><img src="images/youtube-icon_.png" alt="logo youtube"></a></li>
                     </ul>
                 </li>
             </ul>
