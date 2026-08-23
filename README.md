@@ -4,15 +4,15 @@ Site web *one page* présentant un guide d'introduction au HTML et au CSS, desti
 
 ## À propos
 
-Projet réalisé dans le cadre d'une évaluation individuelle HTML/CSS, durant ma formation Développeur Web et Web Mobile. La consigne : créer, pour une école en ligne fictive ("Digital Student"), un site pédagogique en HTML5/CSS3 respectant une charte graphique imposée, les bonnes pratiques de sémantique HTML, d'accessibilité et de responsive design — réalisé en autonomie, sans JavaScript.
+Projet réalisé dans le cadre d'une évaluation individuelle HTML/CSS, durant ma formation Développeur Web et Web Mobile. La consigne : créer, pour une école en ligne fictive ("Digital Student"), un site pédagogique en HTML5/CSS3 respectant une charte graphique imposée, les bonnes pratiques de sémantique HTML, d'accessibilité et de responsive design - réalisé en autonomie, sans JavaScript.
 
 ## Structure du site
 
 Le site est organisé en 5 sections principales :
-1. **Introduction** — présentation du guide
-2. **Pourquoi apprendre HTML/CSS ?** — argumentaire pédagogique
-3. **Les balises de base** — tableau récapitulatif des balises essentielles avec exemples
-4. **Tips & bonnes pratiques** — conseils pour un code propre et structuré
+1. **Introduction** - présentation du guide
+2. **Pourquoi apprendre HTML/CSS ?** - argumentaire pédagogique
+3. **Les balises de base** - tableau récapitulatif des balises essentielles avec exemples
+4. **Tips & bonnes pratiques** - conseils pour un code propre et structuré
 5. **Contact** — formulaire (prénom, email, message, newsletter)
 
 ## Fonctionnalités et bonnes pratiques mises en œuvre
