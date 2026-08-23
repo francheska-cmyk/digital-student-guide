@@ -13,7 +13,7 @@ Le site est organisé en 5 sections principales :
 2. **Pourquoi apprendre HTML/CSS ?** - argumentaire pédagogique
 3. **Les balises de base** - tableau récapitulatif des balises essentielles avec exemples
 4. **Tips & bonnes pratiques** - conseils pour un code propre et structuré
-5. **Contact** — formulaire (prénom, email, message, newsletter)
+5. **Contact** - formulaire (prénom, email, message, newsletter)
 
 ## Fonctionnalités et bonnes pratiques mises en œuvre
 
