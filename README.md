@@ -40,12 +40,12 @@ Le site est organisé en 5 sections principales :
 **Vue desktop**
 
 ![Page d'accueil](screenshot/accueil.png)
-![Tips & bonnes pratiques](screenshot/tips+formulaire+footer)
+![Tips & bonnes pratiques](screenshot/tips+formulaire+footer.png)
 
 **Vue mobile**
 
 ![Accueil - mobile](screenshot/accueil-version-mobile.png)
-![Tips & bonnes pratiques - mobile](screenshot/tips-bonnepratique-version-mobile.png)
+![Tips & bonnes pratiques - mobile](screenshot/Tips&bonnepratique-version-mobile.png)
 ![Footer - mobile](screenshot/footer-version-mobile.png)
 
 **Formulaire de contact**
