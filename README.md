@@ -39,18 +39,18 @@ Le site est organisé en 5 sections principales :
 
 **Vue desktop**
 
-![Page d'accueil](screenshots/accueil.png)
-![Tips & bonnes pratiques](screenshots/tips+formulaire+footer)
+![Page d'accueil](screenshot/accueil.png)
+![Tips & bonnes pratiques](screenshot/tips+formulaire+footer)
 
 **Vue mobile**
 
-![Accueil - mobile](screenshots/accueil-version-mobile.png)
-![Tips & bonnes pratiques - mobile](screenshots/tips-bonnepratique-version-mobile.png)
-![Footer - mobile](screenshots/footer-version-mobile.png)
+![Accueil - mobile](screenshot/accueil-version-mobile.png)
+![Tips & bonnes pratiques - mobile](screenshot/tips-bonnepratique-version-mobile.png)
+![Footer - mobile](screenshot/footer-version-mobile.png)
 
 **Formulaire de contact**
 
-![Formulaire de contact](screenshots/formulaire-contact.png)
+![Formulaire de contact](screenshot/formulaire-contact.png)
 
 ## Ce que j'ai appris
 
